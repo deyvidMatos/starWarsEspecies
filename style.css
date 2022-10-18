@@ -1,0 +1,118 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+/* usar: font-family: 'Source Code Pro', monospace; */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+/* header */
+header{
+    top: 0;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: linear-gradient(236deg, rgba(195,195,199,1) 0%, rgba(149,149,150,1) 22%, rgba(183,183,186,1) 47%, rgba(148,148,157,1) 72%, rgba(149,149,149,1) 99%);
+    box-shadow: 0 10px 0 #646464,  0 11px 0 #0c0c0c;
+}
+.title{
+    margin: 0.5%;
+    font-size: 3rem;
+    color: #000000;
+}
+.subTitle{
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 0.5% 0 0.5% 0;
+    color: #000000;
+}
+/* main */
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.form-container{
+    position: relative;
+    padding: 5% 0 10% 0;
+    padding-top: 10%;
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background: linear-gradient(0deg, rgba(195,195,199,1) 0%, rgba(149,149,150,1) 22%, rgba(183,183,186,1) 47%, rgba(148,148,157,1) 72%, rgba(149,149,149,1) 99%);
+    box-shadow: 10px 0 0 #646464,  11px 0 0 #0c0c0c;;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#specieInput{
+    width: 50%;
+    height: 40px;
+    border-radius: 10px 10px 0 0;
+    margin: 5px;
+    text-align: center;
+    box-shadow: 0 9px 0 rgb(114, 114, 114), 0 10px 0 #0c0c0c;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    box-shadow: 0 9px 0 rgb(167, 167, 167), 0 10px 0 #0c0c0c;
+}
+button:active{
+    box-shadow: inset 0 9px 2px rgb(88, 88, 88);
+    font-size: 0.8rem;
+}
+.dataForm{
+    width: 60%;
+    text-align: center;
+}
+.result-container{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-image: url("./image/stars.gif");
+    height: 100vh;
+}
+.stats{
+    max-width: 100%;
+    background-color: rgba(255, 255, 255, 0.11);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 5%;
+    border-radius: 20px;
+}
+.resultP{
+    font-family: 'Source Code Pro', monospace;;
+    font-size: 2rem;
+    color: #15f2fd;
+    margin: 0.5%;
+}
+span{
+    font-family: 'Source Code Pro', monospace;
+}
+img{
+    height: 200px;
+    width: 200px;
+    background-color: #000000;
+}

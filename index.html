@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Especies</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./js/index.js" defer type="module"></script>
+</head>
+<body>
+    <main>
+        <section class="form-container">
+            <header>
+                    <h1 class="title">Star Wars</h1>
+                    <p class="subTitle">Especies</p>
+            </header>
+            <form>
+                <label for="specie">Escolha uma especie:</label>
+                <input type="search"  id="specieInput" name="specie" placeholder="ex: 1" required>
+                <button type="submit" id="search">Pesquisar</button>
+                <button type="button" id="random">aleatório</button>
+
+            </form>
+            <h1>informações encontradas:</h1>
+            <p class="dataForm">Aqui voce vai pesquisar sobre as raças alienígenas, e irão aparecer informaçoes ao
+                lado sobre: altura, vida media, linguagem falada, cor dos olhos, cor do cabelo,
+                nome da terra natal entre outros.
+            </p>
+            <div>
+                <p>Por: Deyvid Matos</p>
+                <p>email: deyvidmatosdev@gmail.com</p>
+                <a href="https://github.com/deyvidMatos" target="_blank"><i class="bi bi-github"> </i>GitHub</a>
+                <a href="https://www.linkedin.com/in/deyvid-matos-824859249" target="_blank"><i class="bi bi-linkedin"> </i>Linkedin</a>
+            </div>
+        </section>
+        <section class="result-container">
+            <div class="stats">
+                <p class="resultP">nome: <span id="name" >--</span>;</p>
+                <p class="resultP">linguagem: <span id="language" >--</span>;</p>
+                <p class="resultP">vida media: <span id="life" >--</span>;</p>
+                <p class="resultP">altura media: <span id="height" >--</span>;</p>
+                <p class="resultP">cores de olhos: <span id="eyeColor" >--</span>;</p>
+                <p class="resultP">cores de cabelo: <span id="hairColor" >--</span>;</p>
+                <p class="resultP">tom de pele: <span id="skin" >--</span>;</p>
+                <p class="resultP">classificação: <span id="classification" >--</span>;</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
