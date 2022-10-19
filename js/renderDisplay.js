@@ -11,14 +11,14 @@ export const toDisplay = async(Species) => {
     var skin = document.querySelector('#skin');
     var classe = document.querySelector('#classification');
 
-    name.innerHTML = 'carregando...';
-    lang.innerHTML = 'carregando...';
-    lifeTime.innerHTML = 'carregando...';
-    height.innerHTML = 'carregando...';
-    eyeColor.innerHTML = 'carregando...';
-    hairColor.innerHTML = 'carregando...';
-    skin.innerHTML = 'carregando...';
-    classe.innerHTML = 'carregando...';
+    name.innerHTML = ' carregando...';
+    lang.innerHTML = ' carregando...';
+    lifeTime.innerHTML = ' carregando...';
+    height.innerHTML = ' carregando...';
+    eyeColor.innerHTML = ' carregando...';
+    hairColor.innerHTML = ' carregando...';
+    skin.innerHTML = ' carregando...';
+    classe.innerHTML = ' carregando...';
 
     const data = await fetchSpecies(Species);
     
