@@ -24,7 +24,6 @@ Ao acessar a pagina, podera pesquizar as especies de Star Wars
 > ## *Uso:*
 > - Mostrar abilidae no conhencimento no js;
 > - Mostrar o uso de API
-> - Calcular operações basicas;
 > - Mostrar o resultado;
 
 > ## *Links:*
