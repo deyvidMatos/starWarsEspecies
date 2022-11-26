@@ -1,7 +1,38 @@
-# Mini Projeto Sobre Star Wars
+# Projeto Star Wars Especies
+De uma olhada no meu trabalho 🐱‍🏍
 
-> **Funcionalidades:**
-> - pesquisar sobre as especies;
-> - pesquisar aleatoriamente;
-> > **Nas informações contem:**
-> > - as raças alienígenas, e irão aparecer informações ao lado sobre: altura, vida media, linguagem falada, cor dos olhos, cor do cabelo, nome da terra natal entre outros
+---
+
+> ## *Usados:*
+> - javascript;
+> - HTML;
+> - Css;
+> - Star Wars API;
+
+> ## *Serviços:*
+> - GitHub;
+> - GitHub Pages;
+
+---
+
+## Funcionamento 🔎
+Ao acessar a pagina, podera pesquizar as especies de Star Wars
+![image](https://github.com/deyvidMatos/landing-page/blob/main/image/StarWars.png)
+
+---
+
+> ## *Uso:*
+> - Mostrar abilidae no conhencimento no js;
+> - Mostrar o uso de API
+> - Calcular operações basicas;
+> - Mostrar o resultado;
+
+> ## *Links:*
+> - deploy: Vai La ver: https://deyvidmatos.github.io/landing-page/pages/starwars/starwars.html
+
+> ## *Versão:*
+>  1.0.0.0
+
+> ## *Autor:*
+> - Deyvid Matos
+> - Segue ai o meu git😁
